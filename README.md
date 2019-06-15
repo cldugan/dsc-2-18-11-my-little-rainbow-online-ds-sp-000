@@ -70,9 +70,9 @@ Let's fix this by adding the stylesheet to the `head` like so,
 <head>
 ... 
   <link rel="stylesheet" type="text/css" href="main.css">
-...
+…
 </head>
-```
+``` -e css.
 Link is a self closing tag that will create a relative path with the `href` attribute.  A relative path means the browser knows that the `main.css` file is in the same place as `index.html`.  The `head` is a hidden part of the page that tells the browser where to find any other files it needs to display the page correctly, the `title` for the tab, and any other possible important information.
 
 Now if you refresh the `index.html` page in your browser you should see an ugly black rainbow.  Gerd Jerb!
